@@ -13,7 +13,7 @@ s.type      = 'text/javascript';
 s.textContent =  '(' + function() {    
     var title = document.querySelector('#main #content .subject h3').innerHTML;
     var issue = document.querySelector('#main #content > h2');
-   	var text = '#' + issue.innerHTML.split('#')[1] + ' ' + title;
+    var text = '#' + issue.innerHTML.split('#')[1] + ' ' + title;
     document.body.querySelector('#main #content > h2').innerHTML = text;
  } + ')();';
 
