@@ -18,7 +18,7 @@ s.textContent =  '(' + function() {
     var text = '#' + issue.innerHTML.split('#')[1] + ' ' + title;
     var type = issue.innerHTML.split('#')[0].trim();
     document.body.querySelector('#main #content > h2').innerHTML = text;
-    // Prevent duplicate title in Togle button
+    // Prevent duplicate title in Toggle button
     document.body.querySelector('#main #content .subject h3').innerHTML = '(' + type + ')';
  } + ')();';
  
