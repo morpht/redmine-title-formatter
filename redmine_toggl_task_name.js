@@ -5,8 +5,8 @@
 // @description  Generates task name for Toggl instead of "{Type} #{number}"
 // @author       Radim Klaška
 // @match        https://redmine.morpht.com/issues/*
-// @downloadURL  https://gist.githubusercontent.com/radimklaska/3837332abf826819022a/raw/dfcd97a7e025816f4bc8c15af6694a6e1d867f07/redmine_toggl_task_name.js
-// @updateURL    https://gist.githubusercontent.com/radimklaska/3837332abf826819022a/raw/dfcd97a7e025816f4bc8c15af6694a6e1d867f07/redmine_toggl_task_name.js
+// @downloadURL  https://raw.githubusercontent.com/radimklaska/redmine-toggle-formatter/master/redmine_toggl_task_name.js
+// @updateURL    https://raw.githubusercontent.com/radimklaska/redmine-toggle-formatter/master/redmine_toggl_task_name.js
 // @grant        none
 // ==/UserScript==
  
