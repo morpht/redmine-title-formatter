@@ -16,7 +16,10 @@ s.textContent =  '(' + function() {
     var title = document.querySelector('#main #content .subject h3').innerHTML;
     var issue = document.querySelector('#main #content > h2');
     var text = '#' + issue.innerHTML.split('#')[1] + ' ' + title;
+    var type = issue.innerHTML.split('#')[0].trim();
     document.body.querySelector('#main #content > h2').innerHTML = text;
+    // Prevent duplicate title in Togle button
+    document.body.querySelector('#main #content .subject h3').innerHTML = '(' + type + ')';
  } + ')();';
  
 // Inject Script. Can't use jQuery yet, because the page is not
