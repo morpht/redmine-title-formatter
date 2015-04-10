@@ -1,5 +1,5 @@
 # tl;dr
-* New format: [#Issue number] [Issue title] ([Issue type])
+* New format: {#Issue number} {Issue title} ({Issue type})
 * Chrome: https://www.google.cz/search?q=tampermonkey+chrome
 * Firefox: https://www.google.cz/search?q=greasemonkey#q=greasemonkey+firefox
 * IE: http://stackoverflow.com/questions/11876852/how-to-run-a-modern-userscript-on-internet-explorer
@@ -8,8 +8,8 @@
 # What it does
 * It alters the HTML on Redmine site to get more descriptive task descriptions in Toggle
 * It's compatible with Toggle button ( https://github.com/toggl/toggl-button )
-* Default Toggle button format: [Issue type] [#Issue number] [Issue title]
-* New format with this extension: [#Issue number] [Issue title] ([Issue type])
+* Default Toggle button format: {Issue type} {#Issue number} {Issue title}
+* New format with this extension: {#Issue number} {Issue title} ({Issue type})
 * Toggle tasks starting #Number are usually compatible with or required by other Redmine plugins connecting back to Toggl.
 
 # Installation
