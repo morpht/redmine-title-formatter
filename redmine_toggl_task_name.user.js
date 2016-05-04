@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Redmine Toggl task name
 // @namespace    http://klaska.net
-// @version      0.1
+// @version      0.2
 // @description  Generates task name for Toggl instead of "{Type} #{number}"
 // @author       Radim Klaška
 // @match        https://redmine.morpht.com/issues/*
