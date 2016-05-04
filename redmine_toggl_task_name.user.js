@@ -20,6 +20,14 @@ s.textContent =  '(' + function() {
     document.body.querySelector('#main #content > h2').innerHTML = text;
     // Prevent duplicate title in Toggle button
     document.body.querySelector('#main #content .subject h3').innerHTML = '(' + type + ')';
+    // Add one-click text selection
+    issue.onclick = function() {
+        var selection = window.getSelection();
+        var range = document.createRange();
+        range.selectNodeContents(this);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    };
  } + ')();';
 
 // Inject Script. Can't use jQuery yet, because the page is not
