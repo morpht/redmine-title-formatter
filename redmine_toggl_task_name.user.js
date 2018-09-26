@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Redmine Toggl task name
 // @namespace    http://klaska.net
-// @version      0.2
+// @version      0.3
 // @description  Generates task name for Toggl instead of "{Type} #{number}"
 // @author       Radim Klaška
 // @match        https://redmine.morpht.com/issues/*
@@ -15,9 +15,13 @@ s.type      = 'text/javascript';
 s.textContent =  '(' + function() {
     var title = document.querySelector('#main #content .subject h3').innerHTML;
     var issue = document.querySelector('#main #content > h2');
-    var text = '#' + issue.innerHTML.split('#')[1] + ' ' + title;
     var type = issue.innerHTML.split('#')[0].trim();
+    var text = '#' + issue.innerHTML.split('#')[1] + ' ' + title + ' (' + type+ ')';
+    // Chnage the main header on Issue page.
     document.body.querySelector('#main #content > h2').innerHTML = text;
+    // Change window title.
+    // Works great with https://chrome.google.com/webstore/detail/copy-all-urls/djdmadneanknadilpjiknlnanaolmbfk
+    document.title = text;
     // Prevent duplicate title in Toggle button
     document.body.querySelector('#main #content .subject h3').innerHTML = '(' + type + ')';
     // Add one-click text selection

@@ -7,6 +7,7 @@
 
 # What it does
 * It alters the HTML on Redmine site to get more descriptive task descriptions in Toggle
+* Same format is used for window title. ( Works great with https://chrome.google.com/webstore/detail/copy-all-urls/djdmadneanknadilpjiknlnanaolmbfk )
 * It's compatible with Toggle button ( https://github.com/toggl/toggl-button )
 * Default Toggle button format: {Issue type} {#Issue number} {Issue title}
 * New format with this extension: {#Issue number} {Issue title} ({Issue type})
