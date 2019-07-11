@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         Redmine Toggl task name
-// @namespace    http://klaska.net
-// @version      0.3
-// @description  Generates task name for Toggl instead of "{Type} #{number}"
-// @author       Radim Klaška
+// @name         Redmine title formatter
+// @namespace    https://morpht.com
+// @version      0.4
+// @description  Generates better task name (ideal for Toggl) instead of "{Type} #{number}"
+// @author       Originally developed by @radimklaska, now adopted by Morpht.com
 // @match        https://redmine.morpht.com/issues/*
-// @downloadURL  https://raw.githubusercontent.com/radimklaska/redmine-toggle-formatter/master/redmine_toggl_task_name.user.js
-// @updateURL    https://raw.githubusercontent.com/radimklaska/redmine-toggle-formatter/master/redmine_toggl_task_name.user.js
+// @downloadURL  https://github.com/morpht/redmine-title-formatter/raw/master/redmine_title_formatter.user.js
+// @updateURL    https://github.com/morpht/redmine-title-formatter/raw/master/redmine_title_formatter.user.js
 // @grant        none
 // ==/UserScript==
 

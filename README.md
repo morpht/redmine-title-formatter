@@ -3,7 +3,7 @@
 * Chrome: https://www.google.cz/search?q=tampermonkey+chrome
 * Firefox: https://www.google.cz/search?q=greasemonkey#q=greasemonkey+firefox
 * IE: http://stackoverflow.com/questions/11876852/how-to-run-a-modern-userscript-on-internet-explorer
-* https://raw.githubusercontent.com/radimklaska/redmine-toggle-formatter/master/redmine_toggl_task_name.user.js
+* https://github.com/morpht/redmine-title-formatter/raw/master/redmine_title_formatter.user.js
 
 # What it does
 * It alters the HTML on Redmine site to get more descriptive task descriptions in Toggle
@@ -18,4 +18,4 @@
 * You need something like Greasemonkey for FireFox ("Allows you to customize the way a web page displays or behaves, by using small bits of JavaScript.") to run the script. https://addons.mozilla.org/cs/firefox/addon/greasemonkey/
 * There is Chrome alternative, Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
 * After installing the browser extension, install the script: http://wiki.greasespot.net/Greasemonkey_Manual:Installing_Scripts / http://tampermonkey.net/faq.php?ext=dhdg#Q102
-* The script you need is here: https://github.com/radimklaska/redmine-toggle-formatter/blob/master/redmine_toggl_task_name.user.js Just Copy&Paste or whatever the manual says. :)
+* The script you need is here: https://github.com/morpht/redmine-title-formatter/raw/master/redmine_title_formatter.user.js Just Copy&Paste or whatever the manual says. :)
